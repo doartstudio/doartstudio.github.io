@@ -8,7 +8,7 @@ Member and job
 </tr>
 <tr>
   <td>1</td>
-  <td>Aulia F*ckme</td>
+  <td>Uwa Lia</td>
   <td>Project Manager</td>
 </tr>
 <tr>
@@ -33,7 +33,7 @@ Member and job
 </tr>
 <tr>
   <td>6</td>
-  <td>Ronaldo Simanjuntak</td>
+  <td>UwAldo</td>
   <td>Web Programmer</td>
 </tr>
 </table>
