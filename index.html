@@ -34,13 +34,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script src="web/js/css3-mediaqueries.js"></script>
 <script src="web/js/fwslider.js"></script>
 <style type="text/css" media="screen">
-	#headimg {
-		height: 650px;
-	}
-	.img-slide {
-		height: 300px;
-		width: 500px !important;
-	}
 	.p_title {
 		font-family: arial;
 	}
@@ -53,13 +46,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	.p_title a:hover {
 		color: black;
 	}
+
+	.slider_left {
+		/*padding: 0px 80px;*/
+	}
+
+	@media (max-width:798px){
+		.p_title{
+			font-size: 20px;
+		}
+	}
 </style>
 <link rel="stylesheet" type="text/css" href="web/css/font-awesome.min.css">
 </head>
 <body>
-<div>
-	<img id="headimg" src="web/images/logo.png" alt="" class="col-md-12 img-responsive" />
-</div>
+<!-- <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+	<img id="headimg" src="web/images/logo.png" alt="" class="img-responsive" />
+</div> -->
 <div class="header_bg" id="home"><!-- start header -->
 <div class="container">
 	<div class="header">
@@ -112,7 +115,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <img src="web/images/slider.jpg">
                 <div class="slide_content">
                 	 <div class="slider_left pull-left">
-                		<img src="web/images/logo.png" alt="" class="img-responsive img-slide" />
+                		<img style="width: 70%;" src="web/images/logo.png" alt="" class="img-responsive" />
                 	</div>
                 </div>
                 <div class="slide_content">
@@ -135,7 +138,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <img src="web/images/slider.jpg">
                 <div class="slide_content">
                 	 <div class="slider_left pull-left">
-                		<img src="web/images/logo.png" alt="" class="img-responsive img-slide" />
+                		<img style="width: 70%;" src="web/images/logo.png" alt="" class="img-responsive" />
                 	</div>
                 </div>
                 <div class="slide_content">
